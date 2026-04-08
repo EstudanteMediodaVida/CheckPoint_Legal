@@ -125,10 +125,12 @@ public class MonstrosElementais : MonoBehaviour
             if (Vitórias == 3)
             {
                 print("Você ganhou! Um passo mais perto de se tornar Mestre Monstrinho!");
+                Vitórias = Vitórias + 1;
             }
             else if (VitóriasCPU == 3)
             {
                 print("Você perdeu... Mas não se preocupe, isso é só mais um passo para a vitória!");
+                VitóriasCPU = VitóriasCPU + 1;
             }
         }
     }
